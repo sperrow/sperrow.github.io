@@ -3,8 +3,8 @@ title: Matthew Sperry
 subtitle: Web Development
 email: mattjsperry@gmail.com
 description: Web development
-# baseurl: "" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+url: https://sperrow.github.io # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
 author:
 # street_address: 1234 Somewhere Road
 # city: Nashville

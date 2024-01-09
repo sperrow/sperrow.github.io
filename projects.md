@@ -12,10 +12,29 @@ nav-menu: true
 <section id="one">
 <div class="inner">
 <header class="major">
-    <h1>Projects</h1>
+    <h1>Recent Projects</h1>
 </header>
 
 <!-- Content -->
+<h2 id="age-calculator">REST Countries</h2>
+<div class="row">
+    <div class="6u 12u$(small)">
+        <div class="image fit"><img src="{% link assets/images/rest-countries.png %}"
+                alt="REST countries screenshot" /></div>
+    </div>
+    <div class="6u$ 12u$(small)">
+        <div>
+            <p>Integration with the <a href="https://restcountries.com" target="_blank">REST Countries API</a>. Built with <a href="https://nextjs.org" target="_blank">Next.js</a>, <a href="https://tailwindcss.com" target="_blank">Tailwind CSS</a> and written in TypeScript.</p>
+        </div>
+        <div class="row">
+            <p><a href="https://nextjs-countries-olive.vercel.app" target="_blank"
+                    class="button special">Demo</a></p>
+            <p><a href="https://github.com/sperrow/nextjs-countries" target="_blank"
+                    class="button icon fa-github">Github</a></p>
+        </div>
+    </div>
+</div>
+
 <h2 id="spotipi">Spotipi Lyrics</h2>
 <div class="row">
     <div class="6u 12u$(small)">
@@ -48,25 +67,6 @@ nav-menu: true
         </div>
         <div class="row">
             <p><a href="https://github.com/sperrow/spotify-lyrics" target="_blank"
-                    class="button icon fa-github">Github</a></p>
-        </div>
-    </div>
-</div>
-
-<h2 id="age-calculator">REST Countries</h2>
-<div class="row">
-    <div class="6u 12u$(small)">
-        <div class="image fit"><img src="{% link assets/images/rest-countries.png %}"
-                alt="REST countries screenshot" /></div>
-    </div>
-    <div class="6u$ 12u$(small)">
-        <div>
-            <p>Integration with the <a href="https://restcountries.com" target="_blank">REST Countries API</a>. Built with <a href="https://nextjs.org" target="_blank">Next.js</a> and written in TypeScript.</p>
-        </div>
-        <div class="row">
-            <p><a href="https://nextjs-countries-olive.vercel.app" target="_blank"
-                    class="button special">Demo</a></p>
-            <p><a href="https://github.com/sperrow/nextjs-countries" target="_blank"
                     class="button icon fa-github">Github</a></p>
         </div>
     </div>

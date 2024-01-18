@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Projects
-image: assets/images/projects.jpg
+title: Work
+image: assets/images/work.jpg
 nav-menu: true
 ---
 
@@ -12,7 +12,7 @@ nav-menu: true
 <section id="one">
 <div class="inner">
 <header class="major">
-    <h1>Recent Projects</h1>
+    <h1>Recent Work</h1>
 </header>
 
 <!-- Content -->

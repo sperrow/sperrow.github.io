@@ -19,7 +19,7 @@ nav-menu: true
 <h2 id="age-calculator">REST Countries</h2>
 <div class="row">
     <div class="6u 12u$(small)">
-        <div class="image fit"><img src="{% link assets/images/rest-countries.png %}"
+        <div class="image fit"><img src="{% link assets/images/rest-countries-dark.png %}"
                 alt="REST countries screenshot" /></div>
     </div>
     <div class="6u$ 12u$(small)">

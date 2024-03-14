@@ -16,7 +16,26 @@ nav-menu: true
 </header>
 
 <!-- Content -->
-<h2 id="age-calculator">REST Countries</h2>
+<h2>Tarot Card Reader</h2>
+<div class="row">
+    <div class="6u 12u$(small)">
+        <div class="image fit"><img src="{% link assets/images/tarot.png %}"
+                alt="Tarot reader screenshot" /></div>
+    </div>
+    <div class="6u$ 12u$(small)">
+        <div>
+            <p>AI-powered tarot card reader. Built with <a href="https://platform.openai.com" target="_blank">ChatGPT</a> and <a href="https://vitejs.dev" target="_blank">Vite</a>, using React and TypeScript.</p>
+        </div>
+        <div class="row">
+            <p><a href="https://sperrow.cc/tarot-reader" target="_blank"
+                    class="button special">Demo</a></p>
+            <p><a href="https://github.com/sperrow/tarot-reader" target="_blank"
+                    class="button icon fa-github">Github</a></p>
+        </div>
+    </div>
+</div>
+
+<h2>REST Countries</h2>
 <div class="row">
     <div class="6u 12u$(small)">
         <div class="image fit"><img src="{% link assets/images/rest-countries-dark.png %}"
@@ -35,7 +54,7 @@ nav-menu: true
     </div>
 </div>
 
-<h2 id="spotipi">Spotipi Lyrics</h2>
+<h2>Spotipi Lyrics</h2>
 <div class="row">
     <div class="6u 12u$(small)">
         <div class="image fit"><img src="{% link assets/images/spotipi-lyrics.png %}"
@@ -55,7 +74,7 @@ nav-menu: true
     </div>
 </div>
 
-<h2 id="landing-page">Spotify Lyrics</h2>
+<h2>Spotify Lyrics</h2>
 <div class="row">
     <div class="6u 12u$(small)">
         <div class="image fit"><img src="{% link assets/images/spotify-lyrics.png %}"
@@ -72,7 +91,7 @@ nav-menu: true
     </div>
 </div>
 
-<h2 id="age-calculator">Age Calculator</h2>
+<h2>Age Calculator</h2>
 <div class="row">
     <div class="6u 12u$(small)">
         <div class="image fit"><img src="{% link assets/images/age-calculator.png %}"
@@ -92,7 +111,7 @@ nav-menu: true
     </div>
 </div>
 
-<h2 id="landing-page">Sample landing page</h2>
+<h2>Sample landing page</h2>
 <div class="row">
     <div class="6u 12u$(small)">
         <div class="image fit"><img src="{% link assets/images/landing-page.png %}"

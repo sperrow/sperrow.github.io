@@ -48,7 +48,7 @@ Note: you only need to print 4 of the files for this project (Cover*RPi_side.stl
 
 <img src="{% link assets/images/spotipi-lyrics/rpi-bonnet.jpg %}" alt="bonnet connected to raspberry pi" />
 
-Shut down your Pi and remove power. Plug the Bonnet on so all the 2x20 pins go into the GPIO header.
+Shut down your Pi and remove power. Plug the bonnet on so all the 2x20 pins go into the GPIO header.
 
 ### 2. Connect matrix power cable to terminal block
 

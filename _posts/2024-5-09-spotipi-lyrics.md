@@ -94,9 +94,9 @@ Unplug the power cable and insert the SD card into the RPi. Then plug the power 
 
 On your main computer, ssh into the RPi (format is \_username\_@_hostname\_.local):
 
-    $ ssh matthewsperry@three.local
-    matthewsperry@three.local's password:
-    Linux three 6.1.21-v7+ #1642 SMP Mon Apr  3 17:20:52 BST 2023 armv7l
+    $ ssh matthewsperry@rpi.local
+    matthewsperry@rpi.local's password:
+    Linux rpi 6.1.21-v7+ #1642 SMP Mon Apr  3 17:20:52 BST 2023 armv7l
 
     The programs included with the Debian GNU/Linux system are free software;
     the exact distribution terms for each program are described in the
@@ -105,25 +105,32 @@ On your main computer, ssh into the RPi (format is \_username\_@_hostname\_.loca
     Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
     permitted by applicable law.
     Last login: Thu May  9 01:14:38 2024
-    matthewsperry@three:~ $
+    matthewsperry@rpi:~ $
 
 Clone the repo:
 
-    matthewsperry@three:~ $ git clone https://github.com/sperrow/spotipi-lyrics
+    matthewsperry@rpi:~ $ git clone https://github.com/sperrow/spotipi-lyrics
 
 Run the generation token script and enter the prompted credentials (from the Spotify app you created):
 
-    matthewsperry@three:~ $ cd spotipi-lyrics
-    matthewsperry@three:~/spotipi-lyrics $ bash generate-token.sh
+    matthewsperry@rpi:~ $ cd spotipi-lyrics
+    matthewsperry@rpi:~/spotipi-lyrics $ bash generate-token.sh
 
 1. **Spotify Client ID:** the id created on the Spotify developer dashboard
 1. **Spotify Client Secret:** the secret token created on the Spotify developer dashboard
-1. **Spotify Redirect URI:** http://127.0.0.1/callback
+1. **Spotify Redirect URI:** http://127.0.0.1/callback (fyi if you copy/paste this url from the app page you might need to remove a line break)
 1. **Spotify username:** the username for your Spotify account
 
-A .cache file should have been created. Now run the installation script:
+You should see this message:
 
-    matthewsperry@three:~/spotipi-lyrics $ sudo bash setup.sh
+    Go to the following URL: https://accounts.spotify.com/authorize?client_id=...
+    Enter the URL you were redirected to:
+
+Open the link in your browser to authorize the app - once you do you then need to paste the redirected url back here. If everything worked a .cache file should have been created.
+
+Now run the installation script:
+
+    matthewsperry@rpi:~/spotipi-lyrics $ sudo bash setup.sh
 
 Enter the same information from the previous step, as well as these:
 

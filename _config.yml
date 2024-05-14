@@ -22,28 +22,31 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/sperrow
-  GitLab:
-  Instagram:
-  LinkedIn: https://www.linkedin.com/in/mattjsperry
-  Twitter:
-  Facebook:
-  Slack:
+    GitHub: https://github.com/sperrow
+    GitLab:
+    Instagram:
+    LinkedIn: https://www.linkedin.com/in/mattjsperry
+    Twitter:
+    Facebook:
+    Slack:
 
 # build settings
 markdown: kramdown
 
 # Disqus Comments
 disqus:
-  # Leave shortname blank to disable comments site-wide.
-  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  shortname: sperrow
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: sperrow
 
 sass:
-  style: compressed
+    style: compressed
 
 exclude:
-- "*.gemspec"
-- LICENSE.md
-- CONTRIBUTING.md
-- README.md 
+    - '*.gemspec'
+    - LICENSE.md
+    - CONTRIBUTING.md
+    - README.md
+
+plugins:
+    - jekyll-seo-tag

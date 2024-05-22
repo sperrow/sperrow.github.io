@@ -66,7 +66,7 @@ nav-menu: true
                 in Python.</p>
         </div>
         <div class="row">
-            <p><a href="{{ "2024/05/09/spotipi-lyrics.html" | relative_url }}/"
+            <p><a href="https://sperrow.cc/2024/05/09/spotipi-lyrics.html"
                     class="button special">Guide</a></p>
             <p><a href="https://github.com/sperrow/spotipi-lyrics" target="_blank"
                     class="button icon fa-github">Github</a></p>

@@ -21,7 +21,7 @@ comments: true
 </div>
 
 ## Intro
-I like how Spotify shows the lyrics to the song you're listening to in the app, but I often play music over a smart speaker using Alexa/Siri/etc so I don't have the app open. And even if I did, holding my phone to see the lyrics is kind of annoying. I wanted an easier way to view them so I decided to build my own solution and found [Ryan Ward's project](https://github.com/ryanwa18/spotipi){:target="_blank"} as a great starting point.
+I like how Spotify shows the lyrics to the song you're listening to in the app, but I often play music over a smart speaker using Alexa/Siri/Sonos/etc so I don't have the app open. And even if I did, holding my phone to see the lyrics is kind of annoying. I wanted an easier way to view them so I decided to build my own solution and found [Ryan Ward's project](https://github.com/ryanwa18/spotipi){:target="_blank"} as a great starting point.
 
 The project uses a Raspberry Pi to connect to your Spotify account, fetch the song you're currently listening to, and display those lyrics on a 64x32 LED panel.
 
@@ -142,7 +142,7 @@ Enter the same information from the previous step, as well as these:
 
 ## Thanks
 
-Much thanks to [Ryan Ward](https://www.rwardtech.com/){:target="_blank"} for the base project this repo is forked from, and to [Akash R Chandran](https://akashrchandran.in/){:target="_blank"} for building the lyrics fetcher.
+Much thanks to [Ryan Ward](https://www.rwardtech.com/){:target="_blank"} for the base project this repo is forked from, and to [Akash R Chandran](https://akashrchandran.in/){:target="_blank"} for creating the lyrics fetcher.
 
 ## Video
 

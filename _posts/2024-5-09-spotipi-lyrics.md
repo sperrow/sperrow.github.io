@@ -143,3 +143,7 @@ Enter the same information from the previous step, as well as these:
 ## Video
 
 {% include youtube.html id="PKM1I0vdbhE" %}
+
+## Thanks
+
+Much thanks to [Ryan Ward](https://www.rwardtech.com/){:target="_blank"} for the base project this repo is forked from, and to [Akash R Chandran](https://akashrchandran.in/){:target="_blank"} for building the lyrics fetcher.

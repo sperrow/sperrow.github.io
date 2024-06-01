@@ -110,7 +110,7 @@ On your main computer, ssh into the RPi (format is \_username\_@_hostname\_.loca
     Last login: Thu May  9 01:14:38 2024
     matthewsperry@rpi:~ $
 
-Clone the repo:
+Clone the [repo](https://github.com/sperrow/spotipi-lyrics){:target="_blank"}
 
     matthewsperry@rpi:~ $ git clone https://github.com/sperrow/spotipi-lyrics
 

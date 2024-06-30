@@ -135,9 +135,8 @@ Now run the installation script:
 
     matthewsperry@rpi:~/spotipi-lyrics $ sudo bash setup.sh
 
-Enter the same information from the previous step, as well as these:
+Enter the same information from the previous step, as well as this:
 
-1. **Full path to your spotify token:** the path to the .cache file on your raspberry pi (for example: /home/matthewsperry/spotipi-lyrics/.cache)
 1. **sp_dc cookie:** Syrics sp_dc cookie to authenticate against Spotify in order to have access to the required services, [use this guide](https://github.com/akashrchandran/syrics/wiki/Finding-sp_dc){:target="_blank"}
 
 ## Thanks

@@ -89,7 +89,7 @@ Log in to [your Spotify account](https://developer.spotify.com/dashboard){:targe
 
 [Follow this guide](https://www.raspberrypi.com/documentation/computers/getting-started.html#install-an-operating-system){:target="_blank"}
 
-Make sure you customize settings (hostname, username/password, wifi) and enable SSH so you can log in to the RPi remotely.
+Make sure you customize settings (hostname, username/password, wifi) and enable SSH so you can log in to the RPi remotely. Also I've learned the latest OS Bookworm doesn't work with this project at the moment -- for now please use the older OS Bullseye as a workaround.
 
 ### 3. Install spotipi-lyrics on Raspberry Pi
 
@@ -129,7 +129,7 @@ You should see this message:
     Go to the following URL: https://accounts.spotify.com/authorize?client_id=...
     Enter the URL you were redirected to:
 
-Open the link in your browser to authorize the app - once you do you then need to paste the redirected url back here. If everything worked a .cache file should have been created.
+Open the link in your browser to authorize the app - once you do you will get a new url (http://127.0.0.1/callback?code=asdf...) which you should copy and paste back here. If everything worked a .cache file should have been created.
 
 Now run the installation script:
 

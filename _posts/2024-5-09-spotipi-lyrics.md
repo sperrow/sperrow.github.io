@@ -1,10 +1,14 @@
 ---
 layout: post
 title: Display lyrics from Spotify with a Raspberry Pi and LED&nbsp;Panel
+last_modified_at:
 description: A guide to build a display for showing the lyrics of the song playing on your Spotify account. It uses a Raspberry Pi 3, RGB matrix bonnet, and LED matrix panel from Adafruit.
 image: assets/images/spotipi-lyrics/hero-2.jpg
 hide_image: true
+sitemap: true
 comments: true
+published: true
+date: 2024-05-09 15:08 -0700
 ---
 
 <div class="row">

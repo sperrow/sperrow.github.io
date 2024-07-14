@@ -3,9 +3,10 @@ title: Matthew Sperry
 subtitle: Web Development
 email: mattjsperry@gmail.com
 description: Web development
+timezone: America/Los_Angeles
 url: https://sperrow.github.io # the base hostname & protocol for your site
 # baseurl: "" # the subpath of your site, e.g. /blog
-author:
+# author:
 # street_address: 1234 Somewhere Road
 # city: Nashville
 # state: TN
@@ -39,6 +40,25 @@ disqus:
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
     shortname: sperrow
 
+jekyll_compose:
+    default_front_matter:
+        drafts:
+            last_modified_at:
+            description:
+            image:
+            hide_image: true
+            sitemap: true
+            comments: true
+            published: false
+        posts:
+            last_modified_at:
+            description:
+            image:
+            hide_image: true
+            sitemap: true
+            comments: true
+            published: true
+
 sass:
     style: compressed
 
@@ -51,3 +71,7 @@ exclude:
 plugins:
     - jekyll-seo-tag
     - jekyll-sitemap
+    - jekyll-last-modified-at
+
+last-modified-at:
+    date-format: '%d-%b-%y'

@@ -18,6 +18,11 @@ url: https://sperrow.github.io # the base hostname & protocol for your site
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
+# google tag manager
+google:
+    tag_manager:
+        container_id: GTM-W79Q295B
+
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
 # Icons are not shown if value is empty

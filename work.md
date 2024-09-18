@@ -28,8 +28,27 @@ nav-menu: true
         </div>
         <div class="row">
             <p><a href="https://sperrow.cc/tarot-reader" target="_blank"
-                    class="button special">Demo</a></p>
+                    class="button special">Website</a></p>
             <p><a href="https://github.com/sperrow/tarot-reader" target="_blank"
+                    class="button icon fa-github">Github</a></p>
+        </div>
+    </div>
+</div>
+
+<h2>Who's more FamousBirthdays.com?</h2>
+<div class="row">
+    <div class="6u 12u$(small)">
+        <div class="image fit"><img src="{% link assets/images/famous-birthdays.png %}"
+                alt="Famous birthdays game screenshot" /></div>
+    </div>
+    <div class="6u$ 12u$(small)">
+        <div>
+            <p>Unserious game based on a silly website. Built with <a href="https://nextjs.org" target="_blank">Next.js</a>, <a href="https://cheerio.js.org" target="_blank">Cheerio</a> and <a href="https://www.radix-ui.com" target="_blank">Radix Themes</a>.</p>
+        </div>
+        <div class="row">
+            <p><a href="https://famousbirthdays.sperrow.cc" target="_blank"
+                    class="button special">Website</a></p>
+            <p><a href="https://github.com/sperrow/famous-birthdays" target="_blank"
                     class="button icon fa-github">Github</a></p>
         </div>
     </div>
@@ -47,7 +66,7 @@ nav-menu: true
         </div>
         <div class="row">
             <p><a href="https://nextjs-countries-olive.vercel.app" target="_blank"
-                    class="button special">Demo</a></p>
+                    class="button special">Website</a></p>
             <p><a href="https://github.com/sperrow/nextjs-countries" target="_blank"
                     class="button icon fa-github">Github</a></p>
         </div>
